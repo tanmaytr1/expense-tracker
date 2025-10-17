@@ -33,5 +33,5 @@ router.post("/upload-image", upload.single("image"), (req, res) => {
     res.status(200).json({ imageUrl });
 }); 
 
-// Export the router so it can be used in the main server file (app.js or index.js)
+
 module.exports = router;
